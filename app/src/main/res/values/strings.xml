@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ApiWhiskey</string>
+    <string name="login_distillery">Destilerías</string>
+    <string name="login_whiskey">Whiskey</string>
+    <string name="login_img_whiskey">Whiskey</string>
+    <string name="login_img_distillery">Whiskey</string>
+</resources>

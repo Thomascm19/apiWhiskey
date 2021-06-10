@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#191414"
+    tools:context=".MainActivity">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/img_login_distillery"
+        android:layout_width="221dp"
+        android:layout_height="192dp"
+        android:layout_marginStart="95dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="95dp"
+        android:contentDescription="@string/login_img_distillery"
+        android:src="@drawable/destileria"
+        app:layout_constraintBottom_toTopOf="@+id/button_login_distillery"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button_login_whiskey"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="161dp"
+        android:layout_marginEnd="162dp"
+        android:layout_marginBottom="77dp"
+        android:background="#1DB954"
+        android:text="@string/login_whiskey"
+        android:textColor="@color/white"
+        android:textColorHighlight="@color/white"
+        android:textColorHint="@color/white"
+        android:textColorLink="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/img_login_whiskey"
+        android:layout_width="220dp"
+        android:layout_height="220dp"
+        android:layout_marginStart="95dp"
+        android:layout_marginEnd="96dp"
+        android:contentDescription="@string/login_img_whiskey"
+        app:layout_constraintBottom_toTopOf="@+id/button_login_whiskey"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/tennessee_whiskey" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button_login_distillery"
+        android:layout_width="106dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="152dp"
+        android:layout_marginEnd="153dp"
+        android:layout_marginBottom="98dp"
+        android:background="#1DB954"
+        android:text="@string/login_distillery"
+        android:textColor="@color/white"
+        android:textColorHighlight="@color/white"
+        android:textColorHint="@color/white"
+        android:textColorLink="@color/white"
+        app:layout_constraintBottom_toTopOf="@+id/img_login_whiskey"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/img_login_distillery" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
